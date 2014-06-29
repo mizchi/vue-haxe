@@ -1,6 +1,6 @@
 package vueExtern;
 
-extern class Vue<T> {
+class Vue<T> {
   private var _vue: Dynamic;
   public function new(options) {
     _vue = untyped __js__('new Vue(options)');
