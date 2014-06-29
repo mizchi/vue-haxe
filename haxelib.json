@@ -1,0 +1,10 @@
+{
+  "name": "VueExtern",
+  "url": "http://github.com/mizchi/VueExtern",
+  "license": "MIT",
+  "tags": ["js","extern"],
+  "description": "Vue in Haxe",
+  "version": "1.0.0",
+  "releasenote": "Vue",
+  "contributors": ["mizchi"]
+}
