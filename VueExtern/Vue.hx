@@ -1,4 +1,4 @@
-package VueExtern;
+package vueExtern;
 
 extern class Vue<T> {
   private var _vue: Dynamic;
