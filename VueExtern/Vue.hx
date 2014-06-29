@@ -1,6 +1,6 @@
 package VueExtern;
 
-class Vue<T> {
+extern class Vue<T> {
   private var _vue: Dynamic;
   public function new(options) {
     _vue = untyped __js__('new Vue(options)');
@@ -32,7 +32,7 @@ class Vue<T> {
   };
 
   public function unwatch(s: String, ?cb: Void -> Void): Void {
-    untyped __js__("this._vue.$unwatch(s, ?cb)");
+    untyped __js__("this._vue.$unwatch(s, cb)");
   };
 
   public function get(s: String): Dynamic {
