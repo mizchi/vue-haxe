@@ -1,5 +1,5 @@
 # VueExtern
 
 ```
-vueExtern haxelib git vueExtern https://github.com/mizchi/vueExtern
+haxelib git vue https://github.com/mizchi/vue-haxe
 ```
