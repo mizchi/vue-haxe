@@ -84,6 +84,6 @@ class Vue<T> {
   };
 
   public function destroy(): Void {
-    untyped __js__("this._vue.$destory()");
+    untyped __js__("this._vue.$destroy()");
   };
 }
