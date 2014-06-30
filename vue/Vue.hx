@@ -2,7 +2,7 @@ package vue;
 
 class Vue<T> {
   private var _vue: Dynamic;
-  public function new(options) {
+  public function new(options: VueInitializer) {
     _vue = untyped __js__('new Vue(options)');
   }
 
